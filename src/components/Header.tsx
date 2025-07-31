@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 const Header = () => {
   return (
     <div className="w-full h-44">
-      <div className="flex h-14 w-full items-center justify-center bg-lightGray pt-4">
+      <div className="flex h-14 w-full items-center justify-center bg-[#e8e4e4] pt-4">
         <NavMenu />
       </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
           </div>
         </div>
         <div className="">
-            <Button variant="outline" className="uppercase text-xs px-6 py-4 rounded-full bg-sky-500">Upcoming Events</Button>
+            <Button variant="outline" className="uppercase text-xs px-6 py-4 rounded-full bg-[#00b7e3]">Upcoming Events</Button>
           </div>
       </div>
     </div>
