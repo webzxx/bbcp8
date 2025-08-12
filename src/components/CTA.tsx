@@ -4,7 +4,7 @@ import Image from "next/image";
 const CTA = () => {
   return (
     <section className="fluid-container relative">
-      <div className="bg-[#e2e3da] rounded-2xl bg-tan px-6 sm:px-12 lg:px-0 flex flex-col-reverse lg:flex-row justify-center items-start">
+      <div className="bg-[#e2e3da] rounded-2xl px-6 sm:px-12 lg:px-0 flex flex-col-reverse lg:flex-row justify-center items-start">
         {/* Column 1 */}
         <div className="w-full lg:w-9/20 relative lg:-translate-y-10 pb-10 lg:pb-0">
           <h1 className="text-current font-headline-sans font-bold text-6xl lg:text-8xl xl:text-10xl leading-none tracking-tightest mb-3">
@@ -12,7 +12,7 @@ const CTA = () => {
           </h1>
 
           <div className="lg:px-16">
-            <h2 className=" text-current font-headline text-5xl lg:text-6xl xl:text-7.5xl tracking-tightest mb-3 leading-negative ">
+            <h2 className="text-current text-5xl lg:text-6xl xl:text-7xl tracking-tighter mb-3">
               in <span className="not-italic font-normal">Church</span>{" "}
               <em>Onsite</em>
             </h2>
