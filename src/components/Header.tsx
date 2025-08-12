@@ -6,16 +6,16 @@ import { Button } from "./ui/button";
 
 const Header = () => {
   return (
-    <div className="w-full h-44">
+    <header className="w-full h-44 z-40 transition">
       <div className="flex h-14 w-full items-center justify-center bg-[#e8e4e4] pt-4">
         <NavMenu />
       </div>
 
-      <div className="container mx-auto flex flex-row items-center justify-between px-28 p-6">
+      <div className="px-24 py-4 md:py-8 relative flex mx-auto justify-between items-center gap-6 fluid-container transition-all duration-200">
         <div className="flex flex-row items-center gap-2">
           <Link href="/">
             <Image
-              src="/BBC.jpg"
+              src="/bbc-logo.jpg"
               alt="logo"
               width={80}
               height={50}
@@ -28,11 +28,11 @@ const Header = () => {
             <h2 className="text-sm">Project 8, Quezon City</h2>
           </div>
         </div>
-        <div className="">
+        <div className="flex items-center space-x-8">
             <Button variant="outline" className="uppercase text-xs px-6 py-4 rounded-full bg-[#00b7e3]">Upcoming Events</Button>
           </div>
       </div>
-    </div>
+    </header>
   );
 };
 
