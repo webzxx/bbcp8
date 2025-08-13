@@ -1,6 +1,6 @@
-import CTA from "@/components/CTA";
-import Hero from "@/components/Hero";
-import Leadership from "@/components/Leadership";
+import CTA from "@/components/Home/CTA";
+import Hero from "@/components/Home/Hero";
+import Leadership from "@/components/Home/Leadership";
 
 export default function Home() {
   return (
