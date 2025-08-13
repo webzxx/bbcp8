@@ -12,7 +12,7 @@ const Hero = () => {
           }}
         >
           <div className="relative max-w-2xl">
-            <div className="flex flex-col items-center text-center text-white font-semibold tracking-tight mb-3 p-1">
+            <div className="flex flex-col items-center text-center text-white tracking-tight mb-3 p-1">
               <p className="text-white font-semibold leading-tight mb-4 text-2xl sm:text-4xl md:text-5xl">
                 Shine as lights in the world, holding forth the{" "}
                 <span className="text-[#ad945e]">Word</span> of life
@@ -25,7 +25,7 @@ const Hero = () => {
               <div className="mt-10">
                 <Button
                   variant="default"
-                  className=" inline-flex bg-sky-400 text-black hover:bg-charcoal hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-no-wrap group select-none cursor-pointer "
+                  className="inline-flex bg-sky-400 text-black hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition select-none cursor-pointer"
                 >
                   Learn More
                 </Button>

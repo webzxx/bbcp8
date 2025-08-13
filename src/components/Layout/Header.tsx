@@ -23,9 +23,9 @@ const Header = () => {
         <div className="flex flex-row items-center gap-2">
           <Link href="/">
             <Image
-              src="/bbc-logo.jpg"
+              src="/bbc-logo.png"
               alt="logo"
-              width={60}
+              width={70}
               height={50}
               className="cursor-pointer rounded-full"
               priority
@@ -39,12 +39,12 @@ const Header = () => {
         </div>
 
         {/* Right Side */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center">
           {/* Upcoming Events - Only on medium+ */}
           <div className="hidden md:block">
             <Button
               variant="default"
-              className="inline-flex bg-sky-400 text-black hover:bg-charcoal hover:text-white py-3 px-6 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-no-wrap group select-none cursor-pointer"
+              className="inline-flex bg-sky-400 text-black hover:text-white py-3 px-6 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition select-none cursor-pointer"
             >
               Upcoming Events
             </Button>
