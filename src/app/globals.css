@@ -129,3 +129,27 @@
   padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
   width: 100%;
 }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-120%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(10px); /* small overshoot */
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 1s cubic-bezier(0.5, 0.8, 0.5, 1) forwards;
+}
+
+.dropdown-initial {
+  transform: translateY(-120%);
+  opacity: 0;
+}
