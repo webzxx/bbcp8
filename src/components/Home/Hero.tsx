@@ -5,7 +5,7 @@ const Hero = () => {
     <section id="hero" className="relative grid w-full min-h-screen">
       <div className="relative z-0 w-full max-w-[1680px] h-full mx-auto px-6 md:px-10">
         <div
-          className="relative flex h-[calc(84vh-64px)] w-full items-center justify-center bg-cover bg-center rounded-3xl"
+          className="relative flex h-[calc(92vh-64px)] md:h-[calc(84vh-64px)] w-full items-center justify-center bg-cover bg-center rounded-3xl"
           style={{
             backgroundImage:
               "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/hero-banner.jpg')",
