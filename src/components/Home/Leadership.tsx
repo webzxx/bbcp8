@@ -44,7 +44,7 @@ const Leadership = () => {
             <div className="relative flex justify-between items-center w-full lg:w-1/2 aspect-video rounded-lg overflow-hidden">
               <div className="absolute inset-0 w-full h-full ">
                 <Image
-                  src="/pastor-img.jpg"
+                  src="/pastor-portrait.jpg"
                   alt="Pastor Ansel Lucena"
                   fill
                   className="object-cover rounded-3xl"

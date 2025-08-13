@@ -8,7 +8,7 @@ const Hero = () => {
           className="relative flex h-[calc(84vh-64px)] w-full items-center justify-center bg-cover bg-center rounded-3xl"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/hero-img.jpg')",
+              "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/hero-banner.jpg')",
           }}
         >
           <div className="relative max-w-2xl">
