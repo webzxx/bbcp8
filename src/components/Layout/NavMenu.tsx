@@ -10,19 +10,19 @@ export function NavMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about" className="hover:underline">About</NavigationMenuLink>
+          <NavigationMenuLink href="/about" className="hover:underline text-xs sm:text-sm" >About</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/story" className="hover:underline">Our Story</NavigationMenuLink>
+          <NavigationMenuLink href="/story" className="hover:underline text-xs sm:text-sm" >Our Story</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/beliefs" className="hover:underline">Our Beliefs</NavigationMenuLink>
+          <NavigationMenuLink href="/beliefs" className="hover:underline text-xs sm:text-sm" >Our Beliefs</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/leadership" className="hover:underline">Our Leadership</NavigationMenuLink>
+          <NavigationMenuLink href="/leadership" className="hover:underline text-xs sm:text-sm" >Our Leadership</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/contact" className="hover:underline">Talk to Us</NavigationMenuLink>
+          <NavigationMenuLink href="/contact" className="hover:underline text-xs sm:text-sm" >Talk to Us</NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
