@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative grid w-full min-h-screen pb-8">
+    <section id="hero" className="relative grid w-full min-h-screen">
       <div className="relative z-0 w-full max-w-[1680px] h-full mx-auto px-6 md:px-10">
         <div
           className="relative flex h-[calc(84vh-64px)] w-full items-center justify-center bg-cover bg-center rounded-3xl"
@@ -18,12 +18,14 @@ const Hero = () => {
                 <span className="text-[#ad945e]">Word</span> of life
               </p>
 
-              <p className="text-white text-xl sm:text-2xl">Philippians 2:15-16</p>
+              <p className="text-white text-xl sm:text-2xl">
+                Philippians 2:15-16
+              </p>
 
               <div className="mt-10">
                 <Button
-                  variant="outline"
-                  className="text-lg px-12 py-8 rounded-full bg-[#00b7e3] border-none cursor-pointer"
+                  variant="default"
+                  className=" inline-flex bg-sky-400 text-black hover:bg-charcoal hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-no-wrap group select-none cursor-pointer "
                 >
                   Learn More
                 </Button>

@@ -23,14 +23,21 @@ const Header = () => {
               priority
             />
           </Link>
+
           <div className="flex flex-col items-center justify-center uppercase">
             <h1 className="font-semibold leading-none">Bible Baptist Church</h1>
             <h2 className="text-sm">Project 8, Quezon City</h2>
           </div>
         </div>
-        <div className="flex items-center space-x-8">
-            <Button variant="outline" className="uppercase text-xs px-6 py-4 rounded-full bg-[#00b7e3]">Upcoming Events</Button>
-          </div>
+
+        <div className="">
+          <Button
+            variant="default"
+            className=" inline-flex bg-sky-400 text-black hover:bg-charcoal hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-no-wrap group select-none cursor-pointer "
+          >
+            Upcoming Events
+          </Button>
+        </div>
       </div>
     </header>
   );
