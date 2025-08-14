@@ -31,10 +31,10 @@ const Leadership = () => {
                 beatae saepe corporis laboriosam.
               </div>
 
-              <div className="">
+              <div className="relative inline-flex w-full">
                 <Button
                   variant="default"
-                  className=" inline-flex bg-sky-400 text-black hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition select-none cursor-pointer"
+                  className="inline-flex bg-sky-400 text-black hover:bg-black hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-nowrap select-none cursor-pointer"
                 >
                   See our Leadership
                 </Button>

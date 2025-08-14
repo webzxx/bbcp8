@@ -22,10 +22,10 @@ const CTA = () => {
               at Bible Baptist Church, Project 8, Quezon City.
             </p>
 
-            <div className="">
+            <div className="relative inline-flex">
               <Button
                 variant="default"
-                className="inline-flex bg-sky-400 text-black hover:text-white py-3 px-6 mb-4 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition select-none cursor-pointer"
+                className="inline-flex bg-sky-400 text-black hover:bg-blue-800 font-sans leading-none text-lg tracking-tight py-7 px-14 rounded-4xl items-center justify-center gap-4 transition whitespace-nowrap select-none cursor-pointer"
               >
                 Watch Online
               </Button>
