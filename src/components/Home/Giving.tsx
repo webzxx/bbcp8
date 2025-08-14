@@ -4,13 +4,13 @@ import { Button } from "../ui/button";
 
 const Giving = () => {
   return (
-    <section className="relative fluid-container">
+    <section className="relative fluid-container pt-20 sm:pt-24 xl:pt-32 pb-20 sm:pb-24 xl:pb-32">
       <div className="relative flex flex-col lg:flex-row justify-center items-center gap-16 py-20">
         <div className="relative overflow-hidden rounded-xl w-full h-96 lg:w-2/5 lg:h-[48rem]">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/gradient.jpg"
-              alt="Gradient Background"
+              src="/giving-exp.jpg"
+              alt="Giving Experience"
               fill
               className="absolute inset-0 w-full h-full object-cover"
               priority
