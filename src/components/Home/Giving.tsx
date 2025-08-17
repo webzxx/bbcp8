@@ -49,7 +49,7 @@ const Giving = () => {
             </Button>
           </div>
 
-          <div className="flex justify-center items-center gap-12 mt-6">
+          <div className="flex justify-center items-center gap-14 mt-6">
             <div className="relative inline-flex w-full">
               <Button
                 variant="default"
@@ -62,7 +62,7 @@ const Giving = () => {
             <div className="relative inline-flex w-full">
               <Button
                 variant="default"
-                className="max-w-40 md:max-w-full inline-flex bg-black text-white hover:bg-[#e2e3da] py-6 lg:py-3 px-4 lg:px-6 hover:text-blue-500 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition text-left whitespace-normal md:whitespace-nowrap break-words md:break-normal select-none cursor-pointer"
+                className="max-w-36 md:max-w-full inline-flex bg-black text-white hover:bg-[#e2e3da] py-6 lg:py-3 px-4 lg:px-6 hover:text-blue-500 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition text-left whitespace-normal md:whitespace-nowrap break-words md:break-normal select-none cursor-pointer"
               >
                 Returning Givers
               </Button>
