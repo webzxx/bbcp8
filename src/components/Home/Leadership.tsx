@@ -20,11 +20,11 @@ const Leadership = () => {
                 Global Pastor
               </p>
 
-              <p className="text-current font-headline-sans font-bold text-2xl lg:text-3xl tracking-tight leading-tighter mb-4">
+              <p className="text-current font-headline-sans font-bold text-2xl lg:text-3xl tracking-tighter leading-tighter mb-4">
                 Pastor Ansel Lucena
               </p>
 
-              <div className="max-w-none pb-12 !text-lg">
+              <div className="max-w-none pb-12 !text-lg tracking-tighter">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                 soluta aspernatur modi nisi beatae explicabo sapiente, facere
                 magnam! Optio expedita soluta esse dicta. Accusamus harum ab
