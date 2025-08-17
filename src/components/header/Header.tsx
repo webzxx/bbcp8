@@ -2,20 +2,21 @@
 
 import React, { useState } from "react";
 import { NavMenu } from "./NavMenu";
+import DropdownMenu from "./DropdownMenu";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "../ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="w-full h-24 md:h-44 z-50 relative transition">
-      {/* Top Navigation Bar - Only on desktop */}
-      <div className="hidden md:flex h-14 w-full items-center justify-center bg-[#e8e4e4] pt-4">
-        <NavMenu />
-      </div>
+      {/* Top Navigation Bar - Desktop */}
+      <nav className="hidden md:flex h-14 w-full items-center justify-center bg-[#e8e4e4] pt-4">
+        {!isMenuOpen && <NavMenu />}
+      </nav>
 
       {/* Logo and Actions */}
       <div className="px-6 md:px-24 py-4 md:py-8 relative flex mx-auto justify-between items-center gap-6 fluid-container">
@@ -39,8 +40,8 @@ const Header = () => {
         </div>
 
         {/* Right Side */}
-        <div className="flex items-center">
-          {/* Upcoming Events - Only on medium+ */}
+        <div className="flex items-center space-x-8">
+          {/* Upcoming Events */}
           <div className="hidden md:block">
             <Button
               variant="default"
@@ -50,9 +51,9 @@ const Header = () => {
             </Button>
           </div>
 
-          {/* Hamburger Menu - Show on small devices */}
+          {/* Hamburger Menu */}
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-gray-200"
+            className="inline-flex flex-col items-center cursor-pointer group w-8"
             onClick={() => setIsMenuOpen(true)}
           >
             <Menu size={40} />
@@ -60,27 +61,8 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div
-          className="
-            absolute flex justify-center items-center top-0 left-0 right-0 bg-black text-white 
-            font-bold shadow-lg p-4 pt-24 z-50 md:hidden animate-slideDown dropdown-initial w-full
-          "
-          style={{ animationDelay: "0.1s" }}
-        >
-          {/* Close Button */}
-          <button
-            className="absolute top-3 right-5 p-4 rounded-lg hover:bg-gray-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            <X size={40} />
-          </button>
-
-          {/* Menu Items */}
-          <NavMenu />
-        </div>
-      )}
+      {/* Dropdown Menu */}
+      {isMenuOpen && <DropdownMenu onClose={() => setIsMenuOpen(false)} />}
     </header>
   );
 };
