@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Facebook, X } from "lucide-react";
-import { NavMenu } from "./NavMenu";
 import Link from "next/link";
 import Image from "next/image";
 
