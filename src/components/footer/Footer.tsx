@@ -86,7 +86,35 @@ const Footer = () => {
               </div>
             </nav>
 
-            <nav></nav>
+            <nav>
+              <p className="text-gray-800 leading-snug text-lg tracking-wide mb-6 opacity-60">Ministries</p>
+              <div className="flex flex-col space-y-2">
+                <Link
+                  href=""
+                  className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
+                >
+                  Soul Winning
+                </Link>
+                <Link
+                  href=""
+                  className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
+                >
+                  Bible Study
+                </Link>
+                <Link
+                  href=""
+                  className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
+                >
+                  Discipleship
+                </Link>
+                <Link
+                  href=""
+                  className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
+                >
+                  Bible School Seminary
+                </Link>
+              </div>
+            </nav>
           </div>
         </div>
 

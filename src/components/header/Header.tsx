@@ -26,7 +26,7 @@ const Header = () => {
             <Image
               src="/bbc-logo.png"
               alt="logo"
-              width={70}
+              width={80}
               height={50}
               className="cursor-pointer rounded-full"
               priority

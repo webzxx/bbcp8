@@ -24,7 +24,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
             <Image
               src="/bbc-logo.png"
               alt="logo"
-              width={70}
+              width={80}
               height={50}
               className="cursor-pointer rounded-full"
               priority
@@ -102,8 +102,8 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
             <div className="relative w-full h-full pb-96">
               <div className="absolute inset-0 w-full h-full">
                 <Image
-                  src="/sabbath.jpg"
-                  alt="sample"
+                  src="/anniversary-banner.jpg"
+                  alt="Anniversary Banner"
                   fill
                   className="absolute inset-0 w-full h-full object-cover"
                   priority
@@ -113,11 +113,11 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
 
             <div className="relative flex flex-col sm:flex-row sm:justify-between w-full pt-4 sm:pt-6 sm:space-x-10 lg:space-x-16 space-y-1 sm:space-y-0">
               <h6 className="text-white font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tighter ">
-                Anniversary — 55th Church Foundation
+                55th Anniversary — Celebration Service
               </h6>
               <h6 className="text-blue-500 font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tighter "></h6>
               <h6 className="text-gray-300 font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tighter ">
-                09.24.25
+                09.28.25
               </h6>
             </div>
           </Link>
@@ -205,7 +205,37 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
               </div>
             </nav>
 
-            <nav className="w-full md:w-1/3 pr-10"></nav>
+            <nav className="w-full md:w-1/3 pr-10">
+              <h6 className="text-gray-500 font-headline-sans font-bold text-xl lg:text-2xl tracking-tight leading-tighter mb-3">
+                Ministries
+              </h6>
+              <div className="grid grid-cols-1 gap-2">
+                <Link
+                  href=""
+                  className="text-white hover:text-blue-500 font-bold"
+                >
+                  Soul Winning
+                </Link>
+                <Link
+                  href=""
+                  className="text-white hover:text-blue-500 font-bold"
+                >
+                  Bible Study
+                </Link>
+                <Link
+                  href=""
+                  className="text-white hover:text-blue-500 font-bold"
+                >
+                  Discipleship
+                </Link>
+                <Link
+                  href=""
+                  className="text-white hover:text-blue-500 font-bold"
+                >
+                  Bible School Seminary
+                </Link>
+              </div>
+            </nav>
 
             <div className="flex items-center mt-8 space-x-4 mb-8 lg:mb-0">
               <a
