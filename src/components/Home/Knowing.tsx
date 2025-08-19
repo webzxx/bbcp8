@@ -24,11 +24,11 @@ const Knowing = () => {
           </p>
 
           <h2 className=" text-white font-headline-sans font-bold text-5xl lg:text-6xl xl:text-7.5xl tracking-tighter mb-3 leading-none">
-            Good Works
+            Soul Winning
           </h2>
 
           <p className="text-white leading-snug text-lg tracking-tighter hidden md:block mb-10 max-w-md">
-            Good works exists to see people in our House and around the globe
+            Soul Winning exists to see people in our House and around the globe
             know and draw closer to Jesus. This is an incredible tool for
             everyone in our House to engage with God each and every day through
             the Truth of His Word.
