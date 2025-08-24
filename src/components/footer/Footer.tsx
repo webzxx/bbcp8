@@ -87,13 +87,13 @@ const Footer = () => {
             </nav>
 
             <nav>
-              <p className="text-gray-800 leading-snug text-lg tracking-wide mb-6 opacity-60">Ministries</p>
+              <p className="text-gray-800 leading-snug text-lg tracking-tighter mb-6 opacity-60">Ministries</p>
               <div className="flex flex-col space-y-2">
                 <Link
                   href=""
                   className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
                 >
-                  Soul Winning
+                  Bible School
                 </Link>
                 <Link
                   href=""
@@ -111,7 +111,7 @@ const Footer = () => {
                   href=""
                   className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
                 >
-                  Bible School Seminary
+                  Soul Winning
                 </Link>
               </div>
             </nav>

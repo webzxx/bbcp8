@@ -206,7 +206,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
             </nav>
 
             <nav className="w-full md:w-1/3 pr-10">
-              <h6 className="text-gray-500 font-headline-sans font-bold text-xl lg:text-2xl tracking-tight leading-tighter mb-3">
+              <h6 className="text-gray-500 font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tighter mb-3">
                 Ministries
               </h6>
               <div className="grid grid-cols-1 gap-2">
@@ -214,7 +214,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
                   href=""
                   className="text-white hover:text-blue-500 font-bold"
                 >
-                  Soul Winning
+                  Bible School
                 </Link>
                 <Link
                   href=""
@@ -232,7 +232,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
                   href=""
                   className="text-white hover:text-blue-500 font-bold"
                 >
-                  Bible School Seminary
+                  Soul Winning
                 </Link>
               </div>
             </nav>
