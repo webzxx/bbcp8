@@ -75,7 +75,7 @@ const Footer = () => {
                   href=""
                   className="font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
                 >
-                  Davao
+                  Makati
                 </Link>
                 <Link
                   href=""

@@ -194,7 +194,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
                   href=""
                   className="text-white hover:text-blue-500 font-bold"
                 >
-                  Davao
+                  Makati
                 </Link>
                 <Link
                   href=""
