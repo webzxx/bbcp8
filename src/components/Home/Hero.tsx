@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
 
 const Hero = () => {
@@ -49,12 +50,14 @@ const Hero = () => {
 
             <div className=" w-full items-center justify-start gap-6 flex-wrap flex relative z-10 ">
               <div className="relative inline-flex ">
-                <Button
-                  variant="default"
-                  className="inline-flex bg-sky-400 text-black hover:bg-white font-sans leading-none text-lg tracking-tighter py-7 px-14 rounded-4xl items-center justify-center gap-4 transition whitespace-nowrap select-none cursor-pointer"
-                >
-                  Learn More
-                </Button>
+                <Link href="/about">
+                  <Button
+                    variant="default"
+                    className="inline-flex bg-sky-400 text-black hover:bg-white font-sans leading-none text-lg tracking-tighter py-7 px-14 rounded-4xl items-center justify-center gap-4 transition whitespace-nowrap select-none cursor-pointer"
+                  >
+                    Learn More
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

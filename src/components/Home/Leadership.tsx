@@ -21,7 +21,7 @@ const Leadership = () => {
               </p>
 
               <p className="text-current font-headline-sans font-bold text-2xl lg:text-3xl tracking-tighter leading-tighter mb-4">
-                Pastor Ansel Lucena
+                Pastor Anselmo Lucena
               </p>
 
               <div className="max-w-none pb-12 !text-lg tracking-tighter">

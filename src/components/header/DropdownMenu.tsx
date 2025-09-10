@@ -35,7 +35,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
         <div className="flex justify-end items-center lg:w-3/5 space-x-8">
           <div className="hidden lg:flex space-x-8">
             <Link
-              href=""
+              href="/about"
               className="relative text-white hover:text-blue-500 text-xs leading-none font-bold uppercase select-none transition duration-300 ease-in-out"
             >
               About
@@ -66,7 +66,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
 
       <nav className="flex flex-wrap lg:hidden gap-4 justify-center mt-8">
         <Link
-          href=""
+          href="/about"
           className="relative text-white hover:text-blue-500 text-xs leading-none font-bold select-none transition duration-300 ease-in-out"
         >
           About
