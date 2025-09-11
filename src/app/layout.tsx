@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Antonio } from "next/font/google";
 import "./globals.css";
+import LenisProvider from "@/components/providers/LenisProvider";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 
@@ -34,9 +35,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${antonio.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <LenisProvider>
+          <Header />
+          {children}
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   );
