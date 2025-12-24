@@ -77,7 +77,7 @@ export default function AboutPage() {
 
               <p className="text-charcoal text-base tracking-tighter">
                 We live in shifting times but are rooted in eternal truths, the
-                teachings of Holy Scripture. Here at Passion City Church we are
+                teachings of Holy Scripture. Here at Bible Baptist Church we are
                 guided by certain foundational beliefs and shaping values.
               </p>
 
@@ -119,31 +119,28 @@ export default function AboutPage() {
                   We are: For God. For people. For the city. For the world.
                 </h4>
                 <p>
-                  Passion City Church began with a stirring in the hearts of
-                  Louie and Shelley Giglio for the local church. Born out of the
-                  Passion Movement (a decades-old movement among the collegiate
+                  Bible Baptist Church began with a stirring in the heart of
+                  Pastor Mar Arias for the local church. Born out of the Passion
+                  Movement (a decades-old movement among the collegiate
                   generation), they sought to plant a local community of faith
                   impacted and informed by the DNA of Passion.
                 </p>
                 <p>
-                  With a small team of people, that vision took flight in 2008,
-                  as small gatherings began in homes throughout Atlanta. The
+                  With a small team of people, that vision took flight in 1970,
+                  as small gatherings began in homes throughout Philippines. The
                   desire was to foster a family of believers connected by a
                   common faith, on mission in the city and the world to amplify
                   the name of Jesus.
                 </p>
                 <p>
-                  And that’s exactly what happened. Our first gathering was held
-                  on February 15, 2009, in Atlanta at The Tabernacle. From
-                  there, God faithfully provided, as our little tribe met at
-                  various locations all over the city of Atlanta until we landed
-                  in our first permanent gathering site at 515 Garson Drive.
-                  Since then we’ve added locations in the Cumberland and Trilith
-                  areas of Atlanta and a location in Washington D.C. whose
-                  weekly gatherings started in April of 2018.
+                  Through the years, we have seen lives changed, families
+                  strengthened, and souls saved through the preaching of the
+                  Gospel. We continue to stand as a beacon of hope — a church
+                  where the Bible is preached, Christ is exalted, and people are
+                  loved.
                 </p>
                 <p>
-                  Passion City Church remains a place where the gospel is
+                  Bible Baptist Church remains a place where the gospel is
                   central and Jesus is always the lead story. We are a Jesus
                   church and want to gather in worship and scatter to shine His
                   light and love throughout the city and beyond.
@@ -153,36 +150,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* <section className="overflow-hidden 2xl:overflow-visible">
-          <div className="bg-[#e2e3da] rounded-3xl px-6 py-12 xl:px-12 2xl:py-0">
-            <div>
-              <h1 className="text-black font-bold text-6xl lg:text-7xl 2xl:text-8xl leading-none tracking-tighter -translate-y-0 2xl:-translate-y-10 2xl:-translate-x-12">Our Cities + Locations</h1>
-
-              <div className="mx-auto relative overflow-hidden list-none p-0 z-[1]">
-                <div className="relative w-full h-full z-[1] flex">
-                  <div className="shrink-0 w-[1088px] h-full relative transition-transform">
-                    <div className="flex flex-col-reverse lg:flex-row lg:items-center py-8 gap-4">
-                      <div className="w-full lg:w-1/2 lg:px-16"><p className="font-mono uppercase text-xs leading-none text-opacity-50 mb-3"></p>
-                      <p className="text-current font-headline-sans font-bold text-2xl lg:text-3xl tracking-tight leading-tighter mb-4"></p></div>
-
-                      <div className="relative flex justify-between items-center w-full lg:w-1/2 aspect-video rounded-lg overflow-hidden">
-                      <div className="absolute inset-0 w-full h-full "></div></div>
-                    </div>
-                  </div>
-
-                  <div className="shrink-0 w-[1088px] h-full relative transition-transform"></div>
-                </div>
-              </div>
-
-              <div className="flex pb-4 justify-center lg:justify-end"></div>
-            </div>
-          </div>
-        </section> */}
-
         <section>
           <div className="relative">
             <div className="px-10 pb-24 rounded-3xl bg-[#e2e3da]">
-              <p className="text-black font-headline text-lg lg:text-xl tracking-tight leading-none text-opacity-60 py-8">
+              <p className="text-black font-headline text-lg lg:text-xl tracking-tighter leading-none opacity-60 py-8">
                 This is How We Describe Us...
               </p>
 
@@ -196,12 +167,10 @@ export default function AboutPage() {
                     <h2 className="text-black font-headline text-4xl lg:text-5xl mr-4 md:mr-10 -mt-1 -mb-3 opacity-40 tracking-tighter leading-normal">
                       01
                     </h2>
-
                     <p className="text-black font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tight transition duration-200 hover:text-blue-500">
                       Jesus is Our Lead Story
                     </p>
                   </div>
-
                   <div className="flex items-center ml-10">
                     {activeIndex === 1 ? (
                       <CircleX className="w-8 h-8 text-black" />
@@ -243,8 +212,16 @@ export default function AboutPage() {
                       </div>
                     </div>
 
-                    <div className="relative w-1/2 min-h-4xs h-auto rounded-tr-xl rounded-tl-xl overflow-hidden">
-                      <div className="absolute inset-0 w-full h-full "></div>
+                    <div className="relative w-1/2 min-h-112 h-auto rounded-tr-xl rounded-tl-xl overflow-hidden">
+                      <div className="absolute inset-0 w-full h-full ">
+                        <Image
+                          src="/accord-01.jpg"
+                          alt="Accordion 01"
+                          fill
+                          className="absolute inset-0 w-full h-full object-cover object-top"
+                          priority
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -260,12 +237,10 @@ export default function AboutPage() {
                     <h2 className="text-black font-headline text-4xl lg:text-5xl mr-4 md:mr-10 -mt-1 -mb-3 opacity-40 tracking-tighter leading-normal">
                       02
                     </h2>
-
                     <p className="text-black font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tight transition duration-200 hover:text-blue-500">
                       The Gospel is Central
                     </p>
                   </div>
-
                   <div className="flex items-center ml-10">
                     {activeIndex === 2 ? (
                       <CircleX className="w-8 h-8 text-black" />
@@ -315,8 +290,97 @@ export default function AboutPage() {
                       </div>
                     </div>
 
-                    <div className="relative w-1/2 min-h-4xs h-auto rounded-tr-xl rounded-tl-xl overflow-hidden">
-                      <div className="absolute inset-0 w-full h-full "></div>
+                    <div className="relative w-1/2 min-h-112 h-auto rounded-tr-xl rounded-tl-xl overflow-hidden">
+                      <div className="absolute inset-0 w-full h-full ">
+                        <Image
+                          src="/accord-02.jpg"
+                          alt="Accordion 02"
+                          fill
+                          className="absolute inset-0 w-full h-full object-cover"
+                          priority
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Accordion 03 */}
+              <div className="border-b-[1.5px] border-black">
+                <button
+                  onClick={() => toggleAccordion(3)}
+                  className="flex justify-between items-center w-full cursor-pointer select-none sm:px-3 pt-8 pb-6"
+                >
+                  <div className="flex items-center gap-4 text-left flex-1">
+                    <h2 className="text-black font-headline text-4xl lg:text-5xl mr-4 md:mr-10 -mt-1 -mb-3 opacity-40 tracking-tighter leading-normal">
+                      03
+                    </h2>
+                    <p className="text-black font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tight transition duration-200 hover:text-blue-500">
+                      Worship is a Lifestyle
+                    </p>
+                  </div>
+                  <div className="flex items-center ml-10">
+                    {activeIndex === 3 ? (
+                      <CircleX className="w-8 h-8 text-black" />
+                    ) : (
+                      <CirclePlus className="w-8 h-8 text-black" />
+                    )}
+                  </div>
+                </button>
+
+                <div
+                  style={{
+                    height: activeIndex === 3 ? "448px" : "0px",
+                    overflow: "hidden",
+                    transitionProperty: "height",
+                    transitionDuration: "300ms",
+                    transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+                  }}
+                >
+                  <div className="flex flex-col lg:flex-row items-stretch justify-start gap-6 sm:px-3">
+                    <div className="flex-1 lg:w-1/2">
+                      <div className="pb-6">
+                        <p className="text-black leading-normal text-base tracking-tighter mt-0 mb-8 last:mb-0 ">
+                          We love to worship and we love to sing. But for us,
+                          worship is more than singing songs. Worship is life.
+                          <br />
+                          <br />
+                          The world is broken. People are hurting. In so much of
+                          Earth—disease, injustice, poverty, and neglect win the
+                          day. That’s why God wants more than a song. God wants
+                          justice for the poor and oppressed.
+                          <br />
+                          <br />
+                          We believe worship and justice are two sides of the
+                          same coin. Our best worship is the song we sing as we
+                          reach out to those in need.
+                          <br />
+                          <br />
+                          We believe there is no division between the sacred and
+                          the secular. Life is not about what you do, it’s about
+                          why you do it. Worship is doing everything we do to
+                          the fullest potential; using our unique gifts and
+                          opportunities to magnify Jesus everywhere, all the
+                          time.
+                          <br />
+                          <br />
+                          We love to work. Because we believe our work is
+                          worship when it’s done as a way of bringing honor to
+                          God.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="relative w-1/2 min-h-112 h-auto rounded-tr-xl rounded-tl-xl overflow-hidden">
+                      <div className="absolute inset-0 w-full h-full">
+                        <Image
+                          src="/accord-03.jpg"
+                          alt="Accordion 03"
+                          fill
+                          className="absolute inset-0 w-full h-full object-cover"
+                          priority
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -329,14 +393,14 @@ export default function AboutPage() {
           <div className="flex flex-col gap-8 lg:gap-16 lg:flex-row items-start lg:items-center">
             <div className="relative w-full overflow-hidden rounded-xl lg:w-9/20 aspect-square">
               <div className="absolute inset-0 w-full h-full">
-                  <Image
-                    src="/lucena-fam.jpg"
-                    alt="Lucena Family"
-                    fill
-                    className="absolute inset-0 w-full h-full object-cover"
-                    priority
-                  />
-                </div>
+                <Image
+                  src="/lucena-fam.jpg"
+                  alt="Lucena Family"
+                  fill
+                  className="absolute inset-0 w-full h-full object-cover"
+                  priority
+                />
+              </div>
             </div>
 
             <div className="relative space-y-6 lg:w-11/20">
@@ -348,13 +412,13 @@ export default function AboutPage() {
               </p>
               <p className="leading-normal text-base tracking-wide max-w-lg"></p>
               <p className="text-base tracking-tighter">
-                Louie is the Visionary Architect and Director of the Passion
-                Movement, comprised of Passion Conferences, Passion City Church,
-                Passion Publishing and sixstepsrecords, and the founder of
-                Passion Global Institute. Shelley is the Chief Strategist,
-                Director of Label Operations and Artist Management for
-                sixstepsrecords, co-founder of the Passion Movement, and leads
-                The GROVE, a gathering for the Women of Atlanta.
+                Pastor Anselmo Lucena leads Bible Baptist Church with a deep
+                commitment to biblical truth and spiritual growth. Together with
+                his wife, Jinky, they have faithfully served the church for many
+                years — teaching God’s Word, mentoring believers, and guiding
+                the ministry with humility and love. Their passion is to see
+                lives transformed by the Gospel and the name of Jesus lifted
+                high in every generation.
               </p>
 
               <div className="relative inline-flex">
@@ -365,6 +429,40 @@ export default function AboutPage() {
                   See Our Leadership
                 </Button>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="pt-20 sm:pt-24 xl:pt-32 pb-20">
+          <div className="relative overflow-hidden rounded-2xl flex items-end lg:items-center w-full h-80 md:h-auto p-24">
+            <div className="absolute inset-0 w-full h-full ">
+              <Image
+                src="/hero-banner.jpg"
+                alt="About Banner"
+                fill
+                className="absolute inset-0 w-full h-full object-cover"
+                priority
+              />
+            </div>
+
+            <div className="absolute inset-0 w-full h-full media-overlay"></div>
+
+            <div className="hidden md:block relative">
+              <p className="text-white font-headline text-lg lg:text-xl tracking-tighter leading-none mb-8 opacity-75">
+                We are a Jesus Church
+              </p>
+
+              <h2 className=" text-white font-headline-sans font-bold text-5xl lg:text-6xl xl:text-8xl tracking-tighter mb-3 leading-none">
+                US
+              </h2>
+
+              <p className="text-white leading-snug font-semibold text-lg tracking-tight hidden md:block mb-10 max-w-md">
+                {" "}
+                Our church is more than a place, it&apos;s a people in every
+                place living for the One whose fame outshines every name. This
+                is US. The core values + standards that guide our tribe in
+                everything we do.
+              </p>
             </div>
           </div>
         </section>
