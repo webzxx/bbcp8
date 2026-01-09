@@ -28,13 +28,13 @@ const Footer = () => {
               </p>
               <div className="flex flex-col space-y-2">
                 <Link
-                  href=""
+                  href="/us"
                   className="font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
                 >
                   Our Story
                 </Link>
                 <Link
-                  href=""
+                  href="/beliefs"
                   className="font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
                 >
                   Our Beliefs

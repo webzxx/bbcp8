@@ -10,7 +10,7 @@ export function NavMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about" className="hover:underline text-xs sm:text-sm" >About</NavigationMenuLink>
+          <NavigationMenuLink href="/us" className="hover:underline text-xs sm:text-sm" >About</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink href="/sermons" className="hover:underline text-xs sm:text-sm" >Sermons</NavigationMenuLink>
