@@ -5,7 +5,7 @@ import { useState } from "react";
 import { CirclePlus, CircleX } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function ourStory() {
+export default function OurStory() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleAccordion = (index: number) => {
