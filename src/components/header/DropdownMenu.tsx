@@ -153,7 +153,7 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
                   Our Story
                 </Link>
                 <Link
-                  href=""
+                  href="/beliefs"
                   className="text-white hover:text-blue-500 font-bold"
                 >
                   Our Beliefs
