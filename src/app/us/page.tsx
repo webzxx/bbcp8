@@ -84,7 +84,7 @@ export default function OurStory() {
               <div className="relative inline-flex">
                 <Button
                   variant="default"
-                  className=" inline-flex bg-sky-400 text-black hover:bg-[#e2e3da] py-3 px-6 hover:text-blue-500 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-nowrap group select-none cursor-pointer "
+                  className="inline-flex bg-sky-400 text-black hover:bg-[#e2e3da] py-3 px-6 hover:text-blue-500 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition whitespace-nowrap group select-none cursor-pointer"
                 >
                   Learn More
                 </Button>
