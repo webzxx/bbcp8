@@ -39,7 +39,7 @@ const Knowing = () => {
               variant="default"
               className="inline-flex bg-sky-400 text-black hover:bg-white hover:opacity-75 font-sans leading-none text-lg tracking-tighter py-7 px-14 rounded-4xl items-center justify-center gap-4 transition whitespace-nowrap select-none cursor-pointer"
             >
-              Watch Online
+              Learn More
             </Button>
           </div>
         </div>
