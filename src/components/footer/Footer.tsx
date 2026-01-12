@@ -40,7 +40,7 @@ const Footer = () => {
                   Our Beliefs
                 </Link>
                 <Link
-                  href=""
+                  href="/leadership"
                   className="font-headline-sans font-bold text-xl lg:text-2xl tracking-tighter leading-tight hover:text-blue-500"
                 >
                   Our Leadership
