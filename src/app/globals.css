@@ -130,6 +130,7 @@
   width: 100%;
 }
 
+/* Opening animation */
 @keyframes slideDown {
   0% {
     transform: translateY(-120%);
@@ -152,4 +153,20 @@
 .dropdown-initial {
   transform: translateY(-120%);
   opacity: 0;
+}
+
+/* Closing animation */
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 1s cubic-bezier(0.5, 0.8, 0.5, 1) forwards;
 }
