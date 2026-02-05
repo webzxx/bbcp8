@@ -47,7 +47,7 @@ const Header = () => {
               variant="default"
               className="inline-flex bg-sky-400 text-black hover:text-white py-3 px-6 font-mono leading-none uppercase text-sm rounded-3xl items-center justify-center transition select-none cursor-pointer"
             >
-              Upcoming Events
+              <Link href="/events">Upcoming Events</Link>
             </Button>
           </div>
 
