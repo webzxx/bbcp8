@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function OurLeadership() {
@@ -32,7 +31,6 @@ export default function OurLeadership() {
           <div className="relative w-full sm:w-21 bg-black/30 md:bg-white backdrop-blur will-change-filter rounded-t-1.5xl -mb-px p-8 translate-none transform translate-x-0 translate-y-0 rotate-0 scale-none">
           <h2 className="text-white md:text-black font-headline-sans font-bold text-2xl lg:text-3xl tracking-tighter leading-tighter mb-3">
             <div className="overflow-hidden block align-start relative">
-              Our Leadership
             </div>
           </h2>
           </div>
