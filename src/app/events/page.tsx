@@ -16,8 +16,8 @@ export default function Events() {
 
             <p className="text-gray-800 leading-snug text-lg tracking-tighter mt-0 mb-8 last:mb-0 prose max-w-full lg:max-w-sm">
               {" "}
-              See what's coming up at our locations in Bible Baptist Church,
-              Project 8, Quezon City. Filter the list below to see what's
+              See what&apos;s coming up at our locations in Bible Baptist Church,
+              Project 8, Quezon City. Filter the list below to see what&apos;s
               happening near you!
             </p>
           </div>
