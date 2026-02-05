@@ -9,7 +9,7 @@ const Giving = () => {
         <div className="relative overflow-hidden rounded-xl w-full h-96 lg:w-2/5 lg:h-[48rem]">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/giving-exp.jpg"
+              src="/give-why.jpg"
               alt="Giving Experience"
               fill
               className="absolute inset-0 w-full h-full object-cover"
