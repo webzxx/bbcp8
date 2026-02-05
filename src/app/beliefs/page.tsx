@@ -173,10 +173,10 @@ export default function OurBeliefs() {
               </p>
 
               <h2 className="text-white font-headline-sans font-bold text-3xl lg:text-4xl xl:text-6xl tracking-tighter mb-3 leading-none">
-                About Bible Baptit Church
+                About Bible Baptist Church
               </h2>
 
-              <p className="text-white leading-snug text-lg tracking-tighter hidden md:block mb-10 max-w-md">
+              <p className="text-white leading-snug font-semibold text-lg tracking-tighter hidden md:block mb-10 max-w-md">
                 {" "}
                 We are a Jesus Church. A small tribe of His followers connected
                 by our common faith and a deep desire to see our city [and the

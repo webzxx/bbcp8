@@ -456,7 +456,7 @@ export default function OurStory() {
                 US
               </h2>
 
-              <p className="text-white leading-snug font-semibold text-lg tracking-tight hidden md:block mb-10 max-w-md">
+              <p className="text-white leading-snug font-semibold text-lg tracking-tighter hidden md:block mb-10 max-w-md">
                 {" "}
                 Our church is more than a place, it&apos;s a people in every
                 place living for the One whose fame outshines every name. This
