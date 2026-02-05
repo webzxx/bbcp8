@@ -16,6 +16,9 @@ export function NavMenu() {
           <NavigationMenuLink href="/sermons" className="hover:underline text-xs sm:text-sm" >Sermons</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <NavigationMenuLink href="/give" className="hover:underline text-xs sm:text-sm" >Give</NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuLink href="/contact" className="hover:underline text-xs sm:text-sm" >Contact</NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

@@ -41,13 +41,19 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
               About
             </Link>
             <Link
-              href=""
+              href="/sermons"
               className="relative text-white hover:text-blue-500 text-xs leading-none font-bold uppercase select-none transition duration-300 ease-in-out"
             >
               Sermons
             </Link>
             <Link
-              href=""
+              href="/give"
+              className="relative text-white hover:text-blue-500 text-xs leading-none font-bold uppercase select-none transition duration-300 ease-in-out"
+            >
+              Give
+            </Link>
+            <Link
+              href="/contact"
               className="relative text-white hover:text-blue-500 text-xs leading-none font-bold uppercase select-none transition duration-300 ease-in-out"
             >
               Contact
@@ -72,13 +78,19 @@ const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
           About
         </Link>
         <Link
-          href=""
+          href="/sermons"
           className="relative text-white hover:text-blue-500 text-xs leading-none font-bold select-none transition duration-300 ease-in-out"
         >
           Sermons
         </Link>
         <Link
-          href=""
+          href="/give"
+          className="relative text-white hover:text-blue-500 text-xs leading-none font-bold select-none transition duration-300 ease-in-out"
+        >
+          Give
+        </Link>
+        <Link
+          href="/contact"
           className="relative text-white hover:text-blue-500 text-xs leading-none font-bold select-none transition duration-300 ease-in-out"
         >
           Contact
