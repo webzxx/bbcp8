@@ -1,15 +1,42 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavMenu } from "./NavMenu";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { Menu } from "lucide-react";
-import DropdownMenu from "./DropdownMenu"
+import DropdownMenu from "./DropdownMenu";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname(); // detect route changes
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
+
+  const handleOpen = () => {
+    setIsMenuOpen(true);
+    setIsClosing(false);
+  };
+
+  const handleClose = () => {
+    setIsClosing(true); // start slide-up animation
+  };
+
+  const handleAnimationEnd = () => {
+    if (isClosing) {
+      setIsMenuOpen(false); // unmount after animation
+      setIsClosing(false);
+    }
+  };
+
+  // Detect route change and trigger slide-up
+  useEffect(() => {
+    if (isMenuOpen && !isClosing) {
+      handleClose(); // start slide-up animation when navigating
+    }
+  }, [pathname]);
 
   return (
     <header className="w-full h-24 md:h-44 z-50 relative transition">
@@ -32,7 +59,6 @@ const Header = () => {
               priority
             />
           </Link>
-
           <div className="hidden md:flex flex-col items-center justify-center uppercase">
             <h1 className="font-semibold leading-none">Bible Baptist Church</h1>
             <h2 className="text-sm">Project 8, Quezon City</h2>
@@ -54,7 +80,7 @@ const Header = () => {
           {/* Hamburger Menu */}
           <button
             className="inline-flex flex-col items-center cursor-pointer group w-8"
-            onClick={() => setIsMenuOpen(true)}
+            onClick={handleOpen}
           >
             <Menu size={40} />
           </button>
@@ -62,7 +88,13 @@ const Header = () => {
       </div>
 
       {/* Dropdown Menu */}
-      {isMenuOpen && <DropdownMenu onClose={() => setIsMenuOpen(false)} />}
+      {isMenuOpen && (
+        <DropdownMenu
+          onClose={handleClose}
+          isClosing={isClosing}
+          onAnimationEnd={handleAnimationEnd}
+        />
+      )}
     </header>
   );
 };

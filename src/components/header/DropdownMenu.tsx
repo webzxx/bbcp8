@@ -7,16 +7,25 @@ import Image from "next/image";
 
 type DropdownMenuProps = {
   onClose: () => void;
+  isClosing: boolean;
+  onAnimationEnd: () => void;
 };
 
-const DropdownMenu = ({ onClose }: DropdownMenuProps) => {
+const DropdownMenu = ({
+  onClose,
+  isClosing,
+  onAnimationEnd,
+}: DropdownMenuProps) => {
+  
   return (
     <div
-      className="
-        absolute w-full top-0 left-0 right-0 bg-[#0e1216] text-white shadow-lg font-bold z-50
-        animate-slideDown dropdown-initial min-h-[70vh] md:min-h-screen lg:min-h-[80vh] px-2 md:px-26 pt-2 lg:pt-4 
-      "
-      style={{ animationDelay: "0.1s" }}
+      onAnimationEnd={onAnimationEnd}
+      className={`
+    absolute w-full top-0 left-0 right-0 bg-[#0e1216] text-white shadow-lg font-bold z-50
+    ${isClosing ? "animate-slideUp" : "animate-slideDown"}
+    dropdown-initial min-h-[70vh] md:min-h-screen lg:min-h-[80vh]
+    px-2 md:px-26 pt-2 lg:pt-4
+  `}
     >
       <div className="relative flex justify-between items-center w-full max-w-screen-3xl mx-auto">
         <div className="flex justify-between items-center lg:w-1/3 space-x-4 sm:space-x-8">
